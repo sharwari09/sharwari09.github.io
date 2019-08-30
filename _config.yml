@@ -12,7 +12,7 @@ parallax_image_two: assets/images/startup3.jpg
 
 project_one: "BookMyEvent"
 project_one_description: "BookMyEvent is an event creation and ticketing app. It allows users to browse, create, local and far events. There are 4 microservices that cater to different features such as user registration, creating an event, booking an event, and a dashboard service that displays created and booked events for an organizer or a regular user. This app is completely containerized has been deployed on Microsoft Azure Kubernetes Service. MongoDb, and Riak KV have been used as the Database backend for the app."
-project_one_url: https://github.com/jameshamann/jekyll-material-theme
+project_one_url: https://github.com/sharwari09/sp19-281-mavericks
 project_one_icon: location_on
 
 project_two: Second Project
