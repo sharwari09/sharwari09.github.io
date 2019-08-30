@@ -15,21 +15,21 @@ project_one_description: "BookMyEvent is an event creation and ticketing app. It
 project_one_url: https://github.com/sharwari09/sp19-281-mavericks
 project_one_icon: location_on
 
-project_two: Second Project
-project_two_description: Describe your project!
+project_two: "Prototype of Federated Byzantine Algorithm"
+project_two_description: "The project uses FBA protocol to enable data replication on various nodes in a cluster. Implemented a key-value datastore service that persists user wallet info: username and balance. If a user does not exist in DB, the service will create a new entry with a given value. Otherwise, the user wallet will be updated with the new amount. For node to node communication, Twisted UDP protocol has been used. PickleDB has been is used for storing the FBA protocol messages."
 project_two_url: https://github.com/jameshamann/jekyll-material-theme
 project_two_icon: photo_camera
 
 
-project_three: Third Project
-project_three_description: Describe your project!
-project_three_url: https://github.com/jameshamann/jekyll-material-theme
+project_three: Data Sharding Techniques
+project_three_description: "Implemented different techniques such as Consistent Hashing and Rendezvous Hashing for data sharding work by building a RESTful key-value datastore API and hashing client. Python Flask has been used to build the API service."
+project_three_url: "https://github.com/sharwari09/Distributed-Systems/tree/master/Data-Sharding"
 project_three_icon: hotel
 
 
-project_four: Fourth Project
-project_four_description: Describe your project!
-project_four_url: https://github.com/jameshamann/jekyll-material-theme
+project_four: GRPC-Chat-Messenger
+project_four_description: "Build a Chat Messenger using GRPC in Python3. Have used gRPC response streaming to continuously receive chat messages from the Chat server. Designed one-on-one conversations between users. Implemented a LRU Cache to store recent messages in memory. Limited the number of messages a user can send to an API within a time window. Provided end-to-end message encryption using AES from PyCrypto library. Also, supports group chats."
+project_four_url: https://github.com/sharwari09/Distributed-Systems/tree/master/GRPC-Chat-Messenger
 project_four_icon: restaurant
 
 portfolio_heading: Portfolio
@@ -40,113 +40,56 @@ syntax_highlighting: true
 
 skills:
   - name: amazonwebservices
-  - name: android
-  - name: angularjs
+  - name: ansible
+  - name: airflow
   - name: apache
-  - name: appcelerator
   - name: apple
   - name: atom
-  - name: babel
-  - name: backbonejs
   - name: bitbucket
   - name: bootstrap
-  - name: bower
   - name: c
-  - name: chrome
-  - name: codeigniter
-  - name: coffescript
   - name: confluence
-  - name: cplusplus
-  - name: csharp
-  - name: css3
-  - name: cucumber
-  - name: d3js
   - name: debian
-  - name: devicon
   - name: django
   - name: docker
-  - name: doctrine
-  - name: dot-net
-  - name: drupal
-  - name: erlang
-  - name: facebook
-  - name: firefox
-  - name: foundation
-  - name: gatling
-  - name: gimp
   - name: git
   - name: github
   - name: gitlab
   - name: go
   - name: google
   - name: gradle
-  - name: grunt
-  - name: gulp
   - name: heroku
   - name: html5
-  - name: ie10
-  - name: illustrator
-  - name: inkscape
   - name: itellij
   - name: java
-  - name: jasmine
   - name: javascript
-  - name: laravel
-  - name: less
   - name: linux
-  - name: meteor
-  - name: mocha
   - name: mongodb
-  - name: moodle
   - name: mysql
   - name: nginx
-  - name: nodejs
-  - name: nodewebkit
   - name: oracle
-  - name: photoshop
-  - name: php
-  - name: phpstorm
-  - name: protractor
   - name: postgresql
   - name: python
   - name: pycharm
-  - name: rails
-  - name: react
   - name: redhat
   - name: redis
-  - name: ruby
-  - name: rubymine
-  - name: safari
-  - name: sass
-  - name: sequelize
   - name: slack
-  - name: sourcetree
   - name: ssh
-  - name: swift
-  - name: symfony
   - name: tomcat
   - name: travis
-  - name: trello
-  - name: twitter
-  - name: typescript
   - name: ubuntu
   - name: vim
   - name: visualstudio
-  - name: vuejs
-  - name: webpack
-  - name: webstorm
-  - name: windows8
   - name: wordpress
-  - name: yii
-  - name: zend
+
 
 icon_size: 50 # font-size of icons in px
 colored: colored # Leave blank for black and white icons
 
 project_button: Github
 
-github: https://github.com/jameshamann/jekyll-material-theme
-medium: https://medium.com
+github: https://github.com/sharwari09
+linkedin: https://www.linkedin.com/in/sharwari-phadnis/
 
 baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
 url: http://localhost:4000/ #the url of your site
